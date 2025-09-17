@@ -383,7 +383,7 @@ function openTherapyModal(therapyType) {
   // Configurar contenido del modal
   modalTitle.textContent = therapyData.title;
   modalDescription.innerHTML = therapyData.content;
-  modalWhatsApp.href = `${WHATSAPP_BASE_URL}?text=${therapyData.whatsappMessage}`;
+  modalWhatsApp.href = `${WHATSAPP_BASE_URL}?text=${encodeURIComponent(therapyData.whatsappMessage)}`;
 
   // Mostrar modal
   modal.classList.add("active");
