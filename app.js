@@ -373,33 +373,32 @@ function setupModal() {
 // Abrir modal de terapia específica
 function openTherapyModal(therapyType) {
   const therapyData = therapiesData[therapyType];
-  if (!therapyData) return;
+  if (!therapyData) {
+    console.error("No se encontró terapia:", therapyType);
+    return;
+  }
 
   const modal = document.getElementById("modal-overlay");
   const modalTitle = document.getElementById("modal-title");
   const modalDescription = document.getElementById("modal-description");
   const modalWhatsApp = document.getElementById("modal-whatsapp");
 
-  // Configurar contenido del modal
+  // Cargar contenido
   modalTitle.textContent = therapyData.title;
   modalDescription.innerHTML = therapyData.content;
-  modalWhatsApp.href = `${WHATSAPP_BASE_URL}?text=${encodeURIComponent(therapyData.whatsappMessage)}`;
+
+  // ✅ Aseguramos que el link se actualice bien
+  const link = `${WHATSAPP_BASE_URL}?text=${encodeURIComponent(therapyData.whatsappMessage)}`;
+  modalWhatsApp.setAttribute("href", link);
+
+  console.log("WhatsApp link asignado:", link);
 
   // Mostrar modal
   modal.classList.add("active");
   modal.setAttribute("aria-hidden", "false");
-
-  // Enfocar en el primer elemento focuseable
-  const firstFocusableElement = modal.querySelector(
-    'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
-  );
-  if (firstFocusableElement) {
-    firstFocusableElement.focus();
-  }
-
-  // Prevenir scroll del body
   document.body.style.overflow = "hidden";
 }
+
 
 // Cerrar modal
 function closeModal() {
