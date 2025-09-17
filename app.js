@@ -21,7 +21,7 @@ const therapiesData = {
       <p>🌿 Un encuentro único para tomar las riendas de tu sanación y vivir una experiencia alineada con tu propia esencia.</p>
     `,
     whatsappMessage:
-      "Hola%20Laura,%20quiero%20información%20sobre%20la%20Sesión%2011.11",
+      "Hola Laura, quiero información sobre la Sesión 11.11",
   },
 
   "constelaciones-familiares": {
@@ -39,7 +39,7 @@ const therapiesData = {
       <p>🌿 Una oportunidad para reconciliarte con tu historia, conectar con tus raíces y crear relaciones más sanas y conscientes.</p>
     `,
     whatsappMessage:
-      "Hola%20Laura,%20quiero%20información%20sobre%20Constelaciones%20Familiares",
+      "Hola Laura, quiero información sobre Constelaciones Familiares",
   },
 
   "constelaciones-cuanticas": {
@@ -57,7 +57,7 @@ const therapiesData = {
       <p>🌿 Es un espacio profundo de revelación y transformación, que te invita a ver con claridad y a reconectar con tu fuerza vital.</p>
     `,
     whatsappMessage:
-      "Hola%20Laura,%20quiero%20información%20sobre%20Constelaciones%20Cu%C3%A1nticas",
+      "Hola Laura, quiero información sobre Constelaciones Cuánticas",
   },
 
   "registros-akashicos": {
@@ -76,7 +76,7 @@ const therapiesData = {
       <p>🌿 Una invitación a escucharte en profundidad y abrirte a la sabiduría de tu propia alma.</p>
     `,
     whatsappMessage:
-      "Hola%20Laura,%20quiero%20agendar%20una%20Sesión%20de%20Registros%20Akáshicos",
+      "Hola Laura, quiero agendar una Sesión de Registros Akáshicos",
   },
 
   "sesion-77": {
@@ -94,7 +94,7 @@ const therapiesData = {
       </ul>
       <p>La Sesión 7.7 es un encuentro profundo donde la geometría se convierte en un lenguaje que dialoga con tu alma, trayendo claridad y sanación desde los Registros.</p>
     `,
-    whatsappMessage: "Hola%20Laura,%20me%20interesa%20la%20Sesión%207.7",
+    whatsappMessage: "Hola Laura,me interesa la Sesión 7.7",
   },
 
   "sesion-33": {
@@ -112,7 +112,7 @@ const therapiesData = {
       </ul>
       <p>✨ Regalate este momento de armonía y bienestar.</p>
     `,
-    whatsappMessage: "Hola%20Laura,%20quiero%20vivir%20la%20Sesión%203.3",
+    whatsappMessage: "Hola Laura, quiero vivir la Sesión 3.3",
   },
 
   "masaje-cuencos": {
@@ -128,7 +128,7 @@ const therapiesData = {
       <p>✨ Una experiencia en la que la ciencia y el bienestar se encuentran, para que tu cuerpo y tu mente logren un equilibrio natural.</p>
     `,
     whatsappMessage:
-      "Hola%20Laura,%20quiero%20un%20Masaje%20Sonoro%20con%20Cuencos%20Tibetanos",
+      "Hola Laura, quiero un Masaje Sonoro con Cuencos Tibetanos",
   },
 };
 
