@@ -1,5 +1,5 @@
 // Constante para el número de WhatsApp
-const WHATSAPP_NUMBER = "549XXXXXXXXXX";
+const WHATSAPP_NUMBER = "5493815123041";
 const WHATSAPP_BASE_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 const DEFAULT_MESSAGE =
   "Hola%20Laura,%20quiero%20información%20sobre%20las%20terapias";
