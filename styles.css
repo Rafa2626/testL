@@ -214,12 +214,13 @@ body {
   height: 100%;
   background: linear-gradient(
     135deg,
-    var(--violet-deep),
-    var(--blue-deep),
-    var(--violet-light)
+    var(--violet-deep) 0%,
+    var(--violet-light) 60%,
+    #d6a6ff 100% /* lila más claro */
   );
   z-index: -1;
 }
+
 
 .sacred-geometry {
   position: absolute;
