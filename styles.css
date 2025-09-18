@@ -546,7 +546,12 @@ body {
 /* Sobre mí */
 .sobre-mi {
   padding: var(--space-xxl) 0;
-  background: linear-gradient(135deg, var(--violet-deep), var(--blue-deep));
+  background: linear-gradient(
+    135deg,
+    var(--violet-deep) 0%,
+    var(--violet-light) 60%,
+    #d6a6ff 100% /* lila más claro */
+  );
   color: var(--white);
   position: relative;
   overflow: hidden;
