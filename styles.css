@@ -624,7 +624,7 @@ body {
 /* CTA Final */
 .cta-final {
   padding: var(--space-xxl) 0;
-  background: linear-gradient(135deg, var(--gold-light), var(--gold));
+  background: var(--white-soft); 
   text-align: center;
   position: relative;
 }
