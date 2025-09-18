@@ -356,7 +356,7 @@ body {
   align-items: center;
   gap: var(--space-xs);
   background: linear-gradient(45deg, var(--violet-deep), var(--violet-light));
-  color: var(--gray-dark);
+  color: var(--white);
   text-decoration: none;
   padding: var(--space-md) var(--space-xl);
   border-radius: 50px;
