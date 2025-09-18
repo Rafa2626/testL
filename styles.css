@@ -565,10 +565,11 @@ body {
   right: -20%;
   width: 300px;
   height: 300px;
-  background: radial-gradient(
-    circle,
-    rgba(245, 199, 106, 0.1),
-    transparent 70%
+  background: linear-gradient(
+    135deg,
+    var(--violet-deep) 0%,
+    var(--violet-light) 60%,
+    #d6a6ff 100% /* lila más claro */
   );
   border-radius: 50%;
   animation: float 8s ease-in-out infinite;
