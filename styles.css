@@ -355,7 +355,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: var(--space-xs);
-  background: linear-gradient(45deg, var(--gold), #f59e0b);
+  background: linear-gradient(45deg, var(--violet-deep), var(--violet-light));
   color: var(--gray-dark);
   text-decoration: none;
   padding: var(--space-md) var(--space-xl);
