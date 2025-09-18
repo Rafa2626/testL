@@ -632,7 +632,7 @@ body {
 .cta-title {
   font-family: var(--font-title);
   font-size: clamp(2rem, 5vw, 3rem);
-  color: var(--gold);
+  color: var(--violet-deep);
   margin-bottom: var(--space-xl);
   font-weight: 700;
 }
